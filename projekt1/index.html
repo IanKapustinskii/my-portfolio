@@ -4,388 +4,433 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Blanchard</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
-  <link rel="shortcut icon" href="img/fav.svg">
+  <link rel="shortcut icon" href="img/Blanchard.svg">
 </head>
 
 <body>
-
   <header class="header">
-    <div class="container d-flex flex-column align-items-center flex-sm-column flex-md-row align-items-sm-center">
-      <a href="https://go.skillbox.ru/education/my" target="_blank" class="header__logo" aria-label="Логотип">
-        <svg aria-hidden="true" width="94" height="21" viewBox="0 0 94 21" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_51_168)">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M13.123 14.968C13.123 18.266 10.506 20.658 6.348 20.658C5.15335 20.6242 3.97725 20.3539 2.88767 19.8628C1.79808 19.3717 0.816623 18.6696 0 17.797L1.39 16.255C2.692 17.498 4.223 18.706 6.32 18.706C8.65 18.706 11.161 17.396 11.161 15.042C11.161 13.087 9.613 11.812 6.359 10.807C2.651 9.67 0.77 8.128 0.77 5.227C0.768 2.356 3.188 0 6.64 0C9.217 0 10.83 1.102 12.399 2.51L11.032 4.033C9.656 2.81 8.345 1.981 6.736 1.981C4.74 1.98 2.77 3.272 2.77 5.13C2.77 6.814 3.734 7.887 7.14 8.933C10.26 9.897 13.123 11.391 13.123 14.966V14.968ZM29.948 1.898C29.948 2.802 30.678 3.536 31.579 3.536C32.012 3.536 32.427 3.363 32.733 3.056C32.9607 2.82686 33.1157 2.53556 33.1785 2.21867C33.2412 1.90178 33.209 1.5734 33.0859 1.27475C32.9627 0.976093 32.7541 0.720464 32.4862 0.539936C32.2183 0.359408 31.903 0.262022 31.58 0.26C30.679 0.26 29.949 0.993 29.949 1.898H29.948ZM50.328 19.676C50.328 19.676 51.538 20.663 55.572 20.663L55.57 20.662C59.552 20.662 62.784 17.74 62.784 13.747C62.784 9.755 59.554 6.844 55.572 6.844C54.442 6.814 53.322 7.044 52.294 7.517V0.599H50.328V19.676ZM65.087 13.767C65.087 17.761 68.313 21 72.294 21C76.275 21 79.503 17.762 79.504 13.768C79.504 9.774 76.276 6.536 72.295 6.536C68.315 6.536 65.087 9.773 65.087 13.767ZM91.433 20.337H94L88.324 13.553L93.617 7.191H91.065L87.045 12.023L83.004 7.191H80.437L85.768 13.561L80.132 20.337H82.683L87.047 15.092L91.433 20.337ZM72.313 8.49C71.2737 8.49068 70.2579 8.79991 69.3945 9.3785C68.531 9.95708 67.8588 10.779 67.463 11.74C67.0655 12.7023 66.9613 13.7606 67.1636 14.7819C67.3659 15.8032 67.8657 16.7419 68.6 17.48C69.3326 18.2162 70.2677 18.7179 71.2863 18.9213C72.3048 19.1246 73.3608 19.0204 74.32 18.622C75.2803 18.2216 76.1004 17.5458 76.6771 16.6798C77.2537 15.8138 77.5609 14.7964 77.56 13.756C77.56 10.848 75.21 8.49 72.312 8.49H72.313ZM55.583 8.823C54.4076 8.83931 53.2646 9.21055 52.304 9.888V18.033C53.3222 18.5296 54.451 18.7562 55.582 18.691C58.478 18.691 60.827 16.661 60.827 13.757C60.827 10.853 58.476 8.822 55.58 8.822H55.582L55.583 8.823ZM45.748 0.6H43.781V20.334H45.748V0.6ZM37.231 0.6H39.198V20.334H37.231V0.6ZM18.209 13.44L18.203 13.434L18.209 13.428V13.44ZM18.209 20.334V13.44L25.082 20.337H27.863L20.983 13.434L27.212 7.181H24.43L18.208 13.428V0.6H16.241V20.334H18.208H18.209ZM30.666 20.337H32.632V7.181H30.666V20.337Z"
-              fill="white" />
-          </g>
-          <defs>
-            <clippath id="clip0_51_168">
-              <rect width="94" height="21" fill="white" />
-            </clippath>
-          </defs>
-        </svg>
+    <div class="container flex">
+      <a href="#" class="header__logo" aria-hidden="true">
+        <picture class="header__picture">
+          <source media="(max-width: 576px)" srcset="img/logo__xs.svg">
+          <source media="(max-width: 1300px)" srcset="img/logo-md.svg">
+          <img src="img/logo.svg" alt="логотип">
+        </picture>
       </a>
-      <nav class="nav ">
-        <ul class="nav__list list-reset d-flex">
-          <li class="nav__item">
-            <a href="#" class="nav__item__link">
-              Главная
-            </a>
+      <nav class="header__nav">
+        <ul class="list-reset header__list flex">
+          <li class="header__item">
+            <a href="#about-us" class="header__link">О нас</a>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__item__link">
-              О&nbsp;нас
-            </a>
+          <li class="header__item">
+            <a href="#gallery" class="header__link">Галерея</a>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__item__link">
-              Преподаватели
-            </a>
+          <li class="header__item">
+            <a href="#catalog" class="header__link">Каталог</a>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__item__link">
-              Курсы
-            </a>
+          <li class="header__item">
+            <a href="#events" class="header__link">События</a>
+          </li>
+          <li class="header__item">
+            <a href="#project" class="header__link">Проекты</a>
+          </li>
+          <li class="header__item">
+            <a href="#contacts" class="header__link">Контакты</a>
           </li>
         </ul>
       </nav>
+      <button aria-label="поиск по сайту" class="btn-reset header__search">
+        <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="8.79564" height="2.19891"
+            transform="matrix(-0.711314 0.702874 0.711314 0.702874 6.25647 20.2722)" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M15.3286 23.3112C9.54218 23.3112 5.06477 18.549 5.06477 12.9507C5.06477 7.35228 9.54218 2.59013 15.3286 2.59013C21.115 2.59013 25.5924 7.35228 25.5924 12.9507C25.5924 18.549 21.115 23.3112 15.3286 23.3112ZM15.3286 25.9013C8.33038 25.9013 2.6572 20.1031 2.6572 12.9507C2.6572 5.79821 8.33038 0 15.3286 0C22.3268 0 28 5.79821 28 12.9507C28 20.1031 22.3268 25.9013 15.3286 25.9013Z" />
+        </svg>
+      </button>
+
     </div>
   </header>
-
   <main>
-
+    <h1 class="visually-hidden">
+      Художественная галерея
+    </h1>
     <section class="hero">
-      <div class="container">
-        <div class="row hero__content">
-          <h1 class="title hero__title col-lg-8 col-md-7">
-            Курсы 3D моделирования
-          </h1>
-          <p class="hero__descr col-lg-5 col-md-6 col-sm-8">
-            Следует отметить, что существующая теория способствует повышению качества благоприятных перспектив.
-            Не&nbsp;следует, однако, забывать.
-          </p>
-        </div>
-        <button class="btn-reset hero__btn">
-          Выбрать курс
-        </button>
-      </div>
-    </section>
-
-    <section class="advantages">
-      <div class="container">
-        <div class="advantages__content row">
-          <h2 class="title advantages__title col-lg-5">
-            Преимущества обучения в&nbsp;skillbox
-          </h2>
-          <p class="advantages__paragraph col-lg-8">
-            Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний, которые
-            представляют собой яркий пример континентально-европейского типа политической культуры, будут рассмотрены
-            исключительно в&nbsp;разрезе маркетинговых предпосылок.
-          </p>
-        </div>
-        <ul class="row advantages__list list-reset" aria-label="Преимущества">
-          <li class="col-12 col-lg-4 col-md-4 col-sm-4 advantages__list__item adv1">
-            <p class="advantages__list__text">
-              Результат вашего обучения&nbsp;является самым важным для нас приоритетом
-            </p>
-          </li>
-          <li class="col-12 col-lg-4 col-md-4 col-sm-4 advantages__list__item adv2">
-            <p class="advantages__list__text">
-              Лично познакомитесь с одним из своих будущих преподавателей
-            </p>
-          </li>
-          <li class="col-12 col-lg-4 col-md-4 col-sm-4 advantages__list__item adv3">
-            <p class="advantages__list__text">
-              Значимость этих проблем очевидна, поэтому стоит всегда быть внимательным
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="teacher">
-      <div class="container teacher__container">
-        <h2 class="title title__teacher">Преподаватели курсов</h2>
-        <ul class="row list-reset teacher__list" aria-label="Преподаватели">
-          <li class="col-lg-3 col-md-6 col-sm-6 col-12 teacher__item item__one">
-            <picture class="teacher__item__img" aria-hidden="true">
-              <source media="(max-width: 530px)" srcset="img/petrow-xs.jpg">
-              <source media="(max-width: 767px)" srcset="img/petrow-sm.jpg">
-              <source media="(max-width: 992px)" srcset="img/petrow_medium.jpg">
-              <img src="img/petrow.jpg" alt="Владимир Петров" aria-hidden="true">
-            </picture>
-            <h3 class="title teacher__item__name">Владимир Петров</h3>
-            <p class="teacher__item__text">
-              Лишь непосредственные участники технического прогресса неоднозначны и&nbsp;будут в&nbsp;равной степени
-              предоставлены сами себе.
-            </p>
-          </li>
-          <li class="col-lg-3 col-md-6 col-sm-6 col-12 teacher__item">
-            <picture class="teacher__item__img" aria-hidden="true">
-              <source media="(max-width: 530px)" srcset="img/sergeew-xs.jpg">
-              <source media="(max-width: 767px)" srcset="img/sergeew-sm.jpg">
-              <source media="(max-width: 992px)" srcset="img/sergeew_medium.jpg">
-              <img src="img/sergeew.jpg" alt="Денис Сергеев" aria-hidden="true">
-            </picture>
-            <h3 class="title teacher__item__name">Денис Сергеев</h3>
-            <p class="teacher__item__text">
-              Безусловно, разбавленное изрядной долей эмпатии, рациональное мышление.
-            </p>
-          </li>
-          <li class="col-lg-3 col-md-6 col-sm-6 col-12 teacher__item">
-            <picture class="teacher__item__img" aria-hidden="true">
-              <source media="(max-width: 530px)" srcset="img/andreew-xs.jpg">
-              <source media="(max-width: 767px)" srcset="img/andreew-sm.jpg">
-              <source media="(max-width: 992px)" srcset="img/andreew_medium.jpg">
-              <img src="img/andreew.jpg" alt="Михаил Андреев" aria-hidden="true">
-            </picture>
-            <h3 class="title teacher__item__name">Михаил Андреев</h3>
-            <p class="teacher__item__text">
-              Ясность нашей позиции очевидна: высокое качество позиционных исследований напрямую зависит от&nbsp;вывода.
-            </p>
-          </li>
-          <li class="col-lg-3 col-md-6 col-sm-6 col-12 teacher__item item__last">
-            <picture class="teacher__item__img" aria-hidden="true">
-              <source media="(max-width: 530px)" srcset="img/dmitriew-xs.jpg">
-              <source media="(max-width: 767px)" srcset="img/dmitriew-sm.jpg">
-              <source media=" (max-width: 992px)" srcset="img/dmitriew_medium.jpg">
-              <img src="img/dmitriew.jpg" alt="Константин Дмитриев" aria-hidden="true">
-            </picture>
-            <h3 class="title teacher__item__name">Константин Дмитриев</h3>
-            <p class="teacher__item__text">
-              Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая теория, в&nbsp;своём классическом
-              представлении.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="course">
-      <div class="container">
-        <h2 class="title course__title">
-          Курсы
+      <div class="container flex">
+        <h2 class="hero__title">
+          Прикоснитесь к&nbsp;прекрасному
         </h2>
-        <ul class="row list-reset course__cards">
-          <li class="course__card col-lg-6 col-md-6 col-sm-6">
-            <article class="card" id="article1">
-              <picture class="course__card__img">
-                <source media="(max-width: 530px)" srcset="img/course-1-xs.jpg">
-                <source media="(max-width: 767px)" srcset="img/course_1_sm.jpg">
-                <source media="(max-width: 992px)" srcset="img/course_1_md.jpg">
-                <img src="img/course_1.jpg" alt="">
+        <p class="hero__descr">
+          Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых заданий создаёт предпосылки
+          для новых предложений
+        </p>
+        <a href="#contacts" class="hero__link">Подписаться на рассылку</a>
+      </div>
+    </section>
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <h2 class="title about-us__title">
+          О нас
+        </h2>
+        <p class="text about-us__decsr">
+          Ясность нашей позиции очевидна: семантический разбор внешних противодействий однозначно определяет каждого
+          участника как&nbsp;способного принимать собственные решения касаемо распределения внутренних резервов
+          и&nbsp;ресурсов. Не&nbsp;следует, однако, забывать, что высококачественный прототип будущего проекта влечёт
+          за&nbsp;собой процесс внедрения и&nbsp;модернизации модели развития. Повседневная практика показывает, что
+          высокое качество позиционных исследований создаёт необходимость включения в&nbsp;производственный план целого
+          ряда внеочередных мероприятий с&nbsp;учётом комплекса распределения внутренних резервов и&nbsp;ресурсов.
+          В&nbsp;рамках спецификации современных стандартов, действия представителей оппозиции набирают популярность
+          среди определённых слоёв населения, а&nbsp;значит, должны быть разоблачены.
+        </p>
+      </div>
+    </section>
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="title gallery__title">Галерея</h2>
+        <div class="gallery__content flex">
+          <ul class="list-reset gallery__inputs flex">
+            <li class="gallery__item">
+              <label class="gallery__label flex">
+                <input type="radio" name="century" value="19" class="gallery__input" aria-label="выбор галереи">
+                XIX век
+              </label>
+            </li>
+            <li class="gallery__item">
+              <label class="gallery__label flex">
+                <input type="radio" name="century" value="20" class="gallery__input" aria-label="выбор галереи">
+                XX век
+              </label>
+            </li>
+            <li class="gallery__item">
+              <label class="gallery__label flex">
+                <input type="radio" name="century" value="modern" class="gallery__input" aria-label="выбор галереи">
+                Современность
+              </label>
+            </li>
+          </ul>
+          <ul class="list-reset gallery__pictures flex">
+            <li class="gallery__picture">
+              <a href="#" aria-label="ссыллка на Картину характеризующая эпоху 19го века" class="gallery__link">
+                <picture class="gallery__img">
+                  <img src="img/gallery1.jpg" alt="Картина характеризующая эпоху 19го века">
+                </picture>
+              </a>
+            </li>
+            <li class="gallery__picture">
+              <a href="#" aria-label="ссыллка на Картину характеризующая эпоху 20го века" class="gallery__link">
+                <picture class="gallery__img">
+                  <img src="img/gallery2.jpg" alt="Картина характеризующая эпоху 20го века">
+                </picture>
+              </a>
+            </li>
+            <li class="gallery__picture">
+              <a href="#" aria-label="ссыллка на Картину характеризующая современность" data-century="modern"
+                class="gallery__link">
+                <picture class="gallery__img">
+                  <img src="img/gallery3.jpg" alt="Картина характеризующая современность">
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="catalog" id="catalog">
+      <div class="container">
+        <h2 class="title catalog__title">Каталог</h2>
+        <p class="catalog__descr text">
+          Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа
+          политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали. Являясь всего
+          лишь частью общей картины, стремящиеся вытеснить традиционное производство, нанотехнологии и&nbsp;по&nbsp;сей
+          день остаются уделом либералов, которые жаждут быть функционально разнесены на&nbsp;независимые элементы.
+        </p>
+        <ul class="list-reset catalog__list flex">
+          <li class="catalog__item">
+            <article class="catalog__card flex">
+              <picture class="catalog__picture">
+                <source media="(max-width: 1300px)" srcset="img/domeniko-medium.jpg">
+                <img src="img/domeniko.jpg" alt="Доменико Гирландайо">
               </picture>
-              <div class="card__body rounded-bottom ">
-                <!-- <span class="clock">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_51_89)">
-                      <path
-                        d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z"
-                        fill="white" />
-                      <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_51_89">
-                        <rect width="24" height="24" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-
-                </span> -->
-                <h3 class="title card__body__title">Cinema 4d для начинающих</h3>
-                <p class="card__body__text">
-                  Учитывая ключевые сценарии поведения, базовый вектор развития напрямую зависит от&nbsp;системы
-                  массового участия. Следует отметить, что сложившаяся структура организации напрямую зависит
-                  от&nbsp;стандартных подходов.
+              <div class="catalog__artist flex">
+                <h3 class="title-h3 catalog__name">
+                  Доменико Гирландайо
+                </h3>
+                <span class="catalog__life subtext">
+                  2&nbsp;июня 1448&ndash;11 января 1494
+                </span>
+                <p class="text catalog__content">
+                  Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной династии, которую
+                  продолжили его брат Давид и&nbsp;сын Ридольфо. Глава художественной мастерской, где юный Микеланджело
+                  в&nbsp;течение года овладевал профессиональными навыками. Автор фресковых циклов, в&nbsp;которых
+                  выпукло,
+                  со&nbsp;всевозможными подробностями показана домашняя жизнь библейских персонажей (в&nbsp;их&nbsp;роли
+                  выступают знатные граждане Флоренции в&nbsp;костюмах того времени).
                 </p>
-                <button class=" btn-reset card__body__btn btn-primary">
-                  Подробнее
-                </button>
               </div>
             </article>
           </li>
-          <li class="course__card col-lg-6 col-md-6 col-sm-6">
-            <article class="card" id="article2">
-              <picture class="course__card__img">
-                <source media="(max-width: 530px)" srcset="img/course-2-xs.jpg">
-                <source media="(max-width: 767px)" srcset="img/course-2-sm.jpg">
-                <source media="(max-width: 992px)" srcset="img/course_2_md.jpg">
-                <img src="img/course_2.jpg" alt="">
+          <li class="catalog__item">
+            <article class="catalog__card flex">
+              <picture class="catalog__picture">
+                <source media="(max-width: 1300px)" srcset="img/andrea-medium.jpg">
+                <img src="img/andrea.jpg" alt="Андреа дель Верроккьо">
               </picture>
-              <div class="card__body rounded-bottom ">
-                <!-- <span class="clock">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_51_89)">
-                      <path
-                        d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z"
-                        fill="white" />
-                      <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_51_89">
-                        <rect width="24" height="24" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-
-                </span> -->
-                <h3 class="title card__body__title">Blender:&nbsp;продвинутый уровень</h3>
-                <p class="card__body__text">
-                  Но&nbsp;убеждённость некоторых оппонентов в&nbsp;значительной степени обусловливает важность форм
-                  воздействия.&emsp; Внезапно, тщательные исследования конкурентов представлены.
+              <div class="catalog__artist flex">
+                <h3 class="title-h3 catalog__name">
+                  Андреа дель Верроккьо
+                </h3>
+                <span class="catalog__life subtext">
+                  1435&ndash;10 октября 1488
+                </span>
+                <p class="text catalog__content">
+                  Творческий путь молодого Андреа, как и&nbsp;многих знаменитых художников и&nbsp;скульпторов эпохи
+                  Возрождения, начался с&nbsp;обучения и&nbsp;работы в&nbsp;одной из&nbsp;ювелирных мастерских
+                  Флоренции.
+                  Там он&nbsp;занимался не&nbsp;только изготовлением драгоценных украшений, но&nbsp;и&nbsp;познавал
+                  основы
+                  живописи, пластики и&nbsp;архитектуры. Его первым учителем был Джулиано Веррокки, фамилию которого
+                  в&nbsp;несколько изменённом виде Андреа заимствовал для своего будущего псевдонима.
                 </p>
-                <button class=" btn-reset card__body__btn btn-primary">
-                  Подробнее
-                </button>
               </div>
             </article>
           </li>
-          <li class="course__card col-lg-6 col-md-6 col-sm-6">
-            <article class="card" id="article3">
-              <picture class="course__card__img">
-                <source media="(max-width: 530px)" srcset="img/course-3-xs.jpg">
-                <source media="(max-width: 767px)" srcset="img/course-3-sm.jpg">
-                <source media="(max-width: 992px)" srcset="img/course_3_md.jpg">
-                <img src="img/course_3.jpg" alt="">
+          <li class="catalog__item">
+            <article class="catalog__card flex">
+              <picture class="catalog__picture">
+                <source media="(max-width: 1300px)" srcset="img/lorenzo-medium.jpg">
+                <img src="img/lorenzo.jpg" alt="Лоренцо ди Креди">
               </picture>
-              <div class="card__body rounded-bottom ">
-                <!-- <span class="clock">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_51_89)">
-                      <path
-                        d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z"
-                        fill="white" />
-                      <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_51_89">
-                        <rect width="24" height="24" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-
-                </span> -->
-                <h3 class="title card__body__title">Визуализация в 3ds Max</h3>
-                <p class="card__body__text">
-                  Повседневная практика показывает, что сложившаяся структура организации обеспечивает актуальность
-                  кластеризации усилий.
+              <div class="catalog__artist flex">
+                <h3 class="title-h3 catalog__name">
+                  Лоренцо ди&nbsp;Креди
+                </h3>
+                <span class="catalog__life subtext">
+                  1459&ndash;12 января 1537
+                </span>
+                <p class="text catalog__content">
+                  Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной династии, которую
+                  продолжили его брат Давид и&nbsp;сын Ридольфо. Глава художественной мастерской, где юный Микеланджело
+                  в&nbsp;течение года овладевал профессиональными навыками. Автор фресковых циклов, в&nbsp;которых
+                  выпукло,
+                  со&nbsp;всевозможными подробностями показана домашняя жизнь библейских персонажей (в&nbsp;их&nbsp;роли
+                  выступают знатные граждане Флоренции в&nbsp;костюмах того времени).
                 </p>
-                <button class="btn-reset card__body__btn btn-primary">
-                  Подробнее
-                </button>
-              </div>
-            </article>
-          </li>
-          <li class="course__card col-lg-6 col-md-6 col-sm-6">
-            <article class="card" id="article4">
-              <picture class="course__card__img">
-                <source media="(max-width: 530px)" srcset="img/course-4-xs.jpg">
-                <source media="(max-width: 767px)" srcset="img/course-4-sm.jpg">
-                <source media="(max-width: 992px)" srcset="img/course_4_md.jpg">
-                <img src="img/course_4.jpg" alt="">
-              </picture>
-              <div class="card__body rounded-bottom ">
-                <!-- <span class="clock">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_51_89)">
-                      <path
-                        d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z"
-                        fill="white" />
-                      <path d="M12.5 7H11V13L16.25 16.15L17 14.92L12.5 12.25V7Z" fill="white" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_51_89">
-                        <rect width="24" height="24" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-
-                </span> -->
-                <h3 class="title card__body__title">Скульптинг в ZBrush</h3>
-                <p class="card__body__text">
-                  Разнообразный и&nbsp;богатый опыт говорит нам, что граница обучения кадров требует определения
-                  и&nbsp;уточнения прогресса профессионального сообщества! В&nbsp;частности, постоянный количественный
-                  рост и&nbsp;сфера нашей активности.
-                </p>
-                <button class=" btn-reset card__body__btn btn-primary">
-                  Подробнее
-                </button>
               </div>
             </article>
           </li>
         </ul>
       </div>
     </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="footer__up">
+    <section class="events" id="events">
       <div class="container">
-        <ul class="footer__list list-reset row" aria-label="Социальные сети">
-          <li class="footer__list__item">
-            <a href="#" class="footer__list__link" aria-label="Facebook">
-              <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_51_12)">
-                  <path
-                    d="M15.402 21V14.034H17.735L18.084 11.326H15.402V9.598C15.402 8.814 15.62 8.279 16.744 8.279H18.178V5.857C17.4838 5.78334 16.7861 5.74762 16.088 5.75C14.021 5.75 12.606 7.012 12.606 9.33V11.326H10.268V14.034H12.606V21H4C3.73478 21 3.48043 20.8946 3.29289 20.7071C3.10536 20.5196 3 20.2652 3 20V4C3 3.73478 3.10536 3.48043 3.29289 3.29289C3.48043 3.10536 3.73478 3 4 3H20C20.2652 3 20.5196 3.10536 20.7071 3.29289C20.8946 3.48043 21 3.73478 21 4V20C21 20.2652 20.8946 20.5196 20.7071 20.7071C20.5196 20.8946 20.2652 21 20 21H15.402Z"
-                    fill="white" />
-                </g>
-                <defs>
-                  <clippath id="clip0_51_12">
-                    <rect width="24" height="24" fill="white" />
-                  </clippath>
-                </defs>
-              </svg>
+        <h2 class="title events__title">
+          События
+        </h2>
+        <ul class="list-reset events__list flex">
+          <li class="events__item">
+            <article class="events__articles events__articles_1 flex">
+              <span class="subtext events__data events__data_name">
+                Музей им. Щусева
+              </span>
+              <time datetime="2025-03-30" class="subtext events__data events__data_time">
+                с&nbsp;20&nbsp;марта по&nbsp;30&nbsp;апреля
+              </time>
+              <h3 class="title-h3 events__name">
+                Книжная&nbsp;гравюра в&nbsp;живом восприятии
+              </h3>
+              <p class="events__descr text">
+                Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной династии, которую
+                продолжили его брат Давид и&nbsp;сын Ридольфо
+              </p>
+              <a href="#" class="events__link text">
+                Подробнее
+              </a>
+            </article>
+          </li>
+          <li class="events__item">
+            <article class="events__articles events__articles_2 flex">
+              <span class="subtext events__data events__data_name">
+                ММОМА
+              </span>
+              <time datetime="2025-03-24T19:00" class="subtext events__data events__data_time">
+                24&nbsp;марта 19:00
+              </time>
+              <h3 class="title-h3 events__name">
+                &laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей Ильин.
+              </h3>
+              <p class="events__descr text">
+                Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого
+                факта
+              </p>
+              <a href="#" class="events__link text">
+                Подробнее
+              </a>
+            </article>
+          </li>
+          <li class="events__item">
+            <article class="events__articles events__articles_3 flex">
+              <span class="subtext events__data events__data_name">
+                Еврейский музей
+              </span>
+              <time datetime="2025-03-31" class="subtext events__data events__data_time">
+                с&nbsp;31&nbsp;марта по&nbsp;21&nbsp;апреля
+              </time>
+              <h3 class="title-h3 events__name">
+                Выставка &laquo;Формация 2020&raquo;
+              </h3>
+              <p class="events__descr text">
+                Идейные соображения высшего порядка, а&nbsp;также современная методология разработки играет важную роль
+                в&nbsp;формировании глубокомысленных рассуждений
+              </p>
+              <a href="#" class="events__link text">
+                Подробнее
+              </a>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="project" id="project">
+      <div class="container">
+        <h2 class="title project__title">
+          Проекты
+        </h2>
+        <p class="text project__descr">
+          Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно
+          фиксирует необходимость своевременного выполнения сверхзадачи. А&nbsp;ещё независимые государства смешаны
+          с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершённой неузнаваемости, из-за чего возрастает
+          их&nbsp;статус бесполезности. Прежде всего, постоянное информационно-пропагандистское обеспечение нашей
+          деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых решений. И&nbsp;нет
+          сомнений, что действия представителей оппозиции могут быть рассмотрены исключительно в&nbsp;разрезе
+          маркетинговых и&nbsp;финансовых предпосылок. Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также
+          представители современных социальных резервов призывают нас к&nbsp;новым свершениям, которые, в&nbsp;свою
+          очередь, должны быть смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершённой неузнаваемости.
+        </p>
+        <h3 class="title-h3 project__subtitle">
+          Партнёры проектов:
+        </h3>
+        <ul class="list-reset flex project__list">
+          <li class="project__item">
+            <a href="#" class="project__link">
+              <picture>
+                <source media="(max-width: 576px)" srcset="img/project1__xs.svg">
+                <source media="(max-width: 992px)" srcset="img/project1__sm.svg">
+                <img src="img/project1.svg" alt="Партнер">
+              </picture>
             </a>
           </li>
-          <li class="footer__list__item">
-            <a href="#" class="footer__list__link" aria-label="Twitter">
-              <svg aria-hidden="true" width="22" height="18" viewBox="0 0 22 18" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M21.1621 2.65593C20.3986 2.99362 19.589 3.2154 18.7601 3.31393C19.6338 2.79136 20.2878 1.96894 20.6001 0.999927C19.7801 1.48793 18.8811 1.82993 17.9441 2.01493C17.3147 1.34151 16.4804 0.89489 15.571 0.744511C14.6616 0.594133 13.728 0.748418 12.9153 1.18338C12.1026 1.61834 11.4564 2.30961 11.0772 3.14972C10.6979 3.98983 10.6068 4.93171 10.8181 5.82893C9.15516 5.74558 7.52838 5.31345 6.04334 4.56059C4.55829 3.80773 3.24818 2.75097 2.19805 1.45893C1.82634 2.09738 1.63101 2.82315 1.63205 3.56193C1.63205 5.01193 2.37005 6.29293 3.49205 7.04293C2.82806 7.02202 2.17869 6.84271 1.59805 6.51993V6.57193C1.59825 7.53763 1.93242 8.47354 2.5439 9.22099C3.15538 9.96843 4.00653 10.4814 4.95305 10.6729C4.33667 10.84 3.69036 10.8646 3.06305 10.7449C3.32992 11.5762 3.85006 12.3031 4.55064 12.824C5.25123 13.3449 6.09718 13.6337 6.97005 13.6499C6.10253 14.3313 5.10923 14.8349 4.04693 15.1321C2.98464 15.4293 1.87418 15.5142 0.779053 15.3819C2.69075 16.6114 4.91615 17.264 7.18905 17.2619C14.8821 17.2619 19.0891 10.8889 19.0891 5.36193C19.0891 5.18193 19.0841 4.99993 19.0761 4.82193C19.8949 4.23009 20.6017 3.49695 21.1631 2.65693L21.1621 2.65593Z"
-                  fill="white" />
-              </svg>
-            </a>
-          </li>
-          <li class="footer__list__item">
-            <a href="#" class="footer__list__link" aria-label="Instagramm">
-              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M10 0C12.717 0 13.056 0.00999994 14.122 0.0599999C15.187 0.11 15.912 0.277 16.55 0.525C17.21 0.779 17.766 1.123 18.322 1.678C18.8305 2.1779 19.224 2.78259 19.475 3.45C19.722 4.087 19.89 4.813 19.94 5.878C19.987 6.944 20 7.283 20 10C20 12.717 19.99 13.056 19.94 14.122C19.89 15.187 19.722 15.912 19.475 16.55C19.2247 17.2178 18.8311 17.8226 18.322 18.322C17.822 18.8303 17.2173 19.2238 16.55 19.475C15.913 19.722 15.187 19.89 14.122 19.94C13.056 19.987 12.717 20 10 20C7.283 20 6.944 19.99 5.878 19.94C4.813 19.89 4.088 19.722 3.45 19.475C2.78233 19.2245 2.17753 18.8309 1.678 18.322C1.16941 17.8222 0.775931 17.2175 0.525 16.55C0.277 15.913 0.11 15.187 0.0599999 14.122C0.0129999 13.056 0 12.717 0 10C0 7.283 0.00999994 6.944 0.0599999 5.878C0.11 4.812 0.277 4.088 0.525 3.45C0.775236 2.78218 1.1688 2.17732 1.678 1.678C2.17767 1.16923 2.78243 0.775729 3.45 0.525C4.088 0.277 4.812 0.11 5.878 0.0599999C6.944 0.0129999 7.283 0 10 0ZM10 5C8.67392 5 7.40215 5.52678 6.46447 6.46447C5.52678 7.40215 5 8.67392 5 10C5 11.3261 5.52678 12.5979 6.46447 13.5355C7.40215 14.4732 8.67392 15 10 15C11.3261 15 12.5979 14.4732 13.5355 13.5355C14.4732 12.5979 15 11.3261 15 10C15 8.67392 14.4732 7.40215 13.5355 6.46447C12.5979 5.52678 11.3261 5 10 5ZM16.5 4.75C16.5 4.41848 16.3683 4.10054 16.1339 3.86612C15.8995 3.6317 15.5815 3.5 15.25 3.5C14.9185 3.5 14.6005 3.6317 14.3661 3.86612C14.1317 4.10054 14 4.41848 14 4.75C14 5.08152 14.1317 5.39946 14.3661 5.63388C14.6005 5.8683 14.9185 6 15.25 6C15.5815 6 15.8995 5.8683 16.1339 5.63388C16.3683 5.39946 16.5 5.08152 16.5 4.75ZM10 7C10.7956 7 11.5587 7.31607 12.1213 7.87868C12.6839 8.44129 13 9.20435 13 10C13 10.7956 12.6839 11.5587 12.1213 12.1213C11.5587 12.6839 10.7956 13 10 13C9.20435 13 8.44129 12.6839 7.87868 12.1213C7.31607 11.5587 7 10.7956 7 10C7 9.20435 7.31607 8.44129 7.87868 7.87868C8.44129 7.31607 9.20435 7 10 7Z"
-                  fill="white" />
-              </svg>
-            </a>
-          </li>
-          <li class="footer__list__item">
-            <a href="#" class="footer__list__link" aria-label="youtube">
-              <svg aria-hidden="true" width="20" height="16" viewBox="0 0 20 16" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M19.543 2.498C20 4.28 20 8 20 8C20 8 20 11.72 19.543 13.502C19.289 14.487 18.546 15.262 17.605 15.524C15.896 16 10 16 10 16C10 16 4.107 16 2.395 15.524C1.45 15.258 0.708 14.484 0.457 13.502C2.98023e-08 11.72 0 8 0 8C0 8 2.98023e-08 4.28 0.457 2.498C0.711 1.513 1.454 0.738 2.395 0.476C4.107 -1.78814e-07 10 0 10 0C10 0 15.896 -1.78814e-07 17.605 0.476C18.55 0.742 19.292 1.516 19.543 2.498ZM8 11.5L14 8L8 4.5V11.5Z"
-                  fill="white" />
-              </svg>
+          <li class="project__item">
+            <a href="#" class="project__link">
+              <picture>
+                <source media="(max-width: 576px)" srcset="img/project2__xs.svg">
+                <source media="(max-width: 992px)" srcset="img/project2__sm.svg">
+                <img src="img/project2.svg" alt="Партнер">
+              </picture>
             </a>
           </li>
         </ul>
       </div>
-    </div>
-    <div class="footer__down">
-      <div class="container">
-        <span class="footer__down__text">SKILLBOX ® 2023</span>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="container flex">
+        <div class="contacts__content flex">
+          <h3 class="title-h3 contacts__place">
+            Шоурум &#8470;&nbsp;4
+          </h3>
+          <address class="contacts__address text">
+            Леонтьевский переулок, дом&nbsp;5/1
+          </address>
+        </div>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="contacts__form flex">
+          <label class="contacts__label">
+            <input type="text" class="contacts__input" placeholder="Имя*" name="name" required aria-label="поле ввода">
+            <span class="contacts__incorrect">Недопустимый формат</span>
+          </label>
+          <label class="contacts__label">
+            <input type="tel" class="contacts__input" placeholder="Телефон*"
+              pattern="^(?:\+7|7|8)[ ]?\(?\d{3}\)?[ ]?\d{3}[ ]?\d{2}[ ]?\d{2}$" name="tel" required
+              aria-label="поле ввода">
+            <span class="contacts__incorrect">Недопустимый формат</span>
+          </label>
+          <button class="btn-reset contacts__btn">
+            Заказать <span class="btn-hidden">обратный звонок</span>
+          </button>
+        </form>
+        <div class="contacts__links flex">
+          <h3 class="contacts__title title-h3">
+            Связаться в&nbsp;один клик
+          </h3>
+          <ul class="list-reset contacts__list flex">
+            <li class="contacts__item">
+              <a href="#" target="_blank" class="contacts__link" aria-label="Whats Up">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_191243_648)">
+                    <path
+                      d="M20 39.375C30.7005 39.375 39.375 30.7005 39.375 20C39.375 9.29948 30.7005 0.625 20 0.625C9.29948 0.625 0.625 9.29948 0.625 20C0.625 30.7005 9.29948 39.375 20 39.375Z"
+                      fill="#30BF39" />
+                    <path
+                      d="M25.8749 21.751C25.6249 21.626 24.3124 20.876 24.0624 20.8135C23.8124 20.6885 23.6249 20.6885 23.4374 20.9385C23.2499 21.1885 22.6874 21.8135 22.5624 21.9385C22.3749 22.126 22.2499 22.126 21.9999 22.001C21.7499 21.876 20.8749 21.5635 19.8749 20.5635C19.1249 19.8135 18.5624 18.9385 18.4374 18.626C18.3124 18.376 18.4374 18.1885 18.5624 18.0635C18.6874 17.9385 18.8124 17.751 18.9999 17.626C19.1874 17.501 19.1874 17.376 19.3124 17.1885C19.4374 17.001 19.3749 16.876 19.3124 16.6885C19.2499 16.501 18.7499 15.1885 18.5624 14.626C18.3749 14.0635 18.1249 14.1885 17.9999 14.126C17.8124 14.126 17.6874 14.0635 17.4999 14.0635C17.2499 14.0635 16.9374 14.1885 16.7499 14.376C16.4999 14.626 15.7499 15.251 15.7499 16.5635C15.7499 17.876 16.6249 19.251 16.7499 19.376C16.8749 19.5635 18.4999 22.4385 21.1874 23.626C23.8749 24.8135 23.8749 24.4385 24.3749 24.4385C24.8749 24.4385 25.9999 23.8135 26.2499 23.251C26.4999 22.626 26.4999 22.0635 26.4374 22.001C26.3124 22.001 26.1249 21.9385 25.8749 21.751ZM20.8749 28.1885C19.1249 28.1885 17.4999 27.6885 16.0624 26.751L12.6874 27.8135L13.8124 24.5635C12.7499 23.0635 12.1249 21.251 12.1249 19.376C12.1249 14.501 16.0624 10.5635 20.9374 10.5635C25.8124 10.5635 29.6874 14.501 29.6874 19.376C29.6874 24.251 25.7499 28.1885 20.8749 28.1885ZM20.8749 8.81348C15.0624 8.81348 10.3124 13.5635 10.3124 19.376C10.3124 21.3135 10.8124 23.1885 11.8124 24.8135L9.87488 30.501L15.7499 28.626C17.3124 29.501 19.0624 29.9385 20.8749 29.9385C26.6874 29.9385 31.4374 25.1885 31.4374 19.376C31.4374 13.5635 26.7499 8.81348 20.8749 8.81348Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clippath id="clip0_191243_648">
+                      <rect width="40" height="40" fill="white" />
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a href="#" target="_blank" class="contacts__link" aria-label="Telegram">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+                    fill="#26A5E4" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.05308 19.7889L20.7167 14.7649C26.2709 12.4547 27.425 12.0534 28.1772 12.0402C28.3427 12.0373 28.7126 12.0783 28.9522 12.2727C29.1546 12.4369 29.2102 12.6587 29.2369 12.8143C29.2636 12.9699 29.2967 13.3246 29.2704 13.6017C28.9694 16.7641 27.667 24.4386 27.0044 27.9806C26.724 29.4794 26.1724 29.9819 25.6376 30.0311C24.4762 30.138 23.5942 29.2635 22.4693 28.5261L18.006 25.528C16.0313 24.2268 17.3114 23.5116 18.4368 22.3428C18.7312 22.0368 23.8486 17.3823 23.9476 16.96C23.9596 16.9072 23.9714 16.7104 23.8545 16.6064C23.7376 16.5024 23.5649 16.5384 23.4404 16.5663C23.2639 16.6064 20.4518 18.465 15.0043 22.1423C14.2061 22.6904 13.4831 22.9575 12.8354 22.9435C12.1213 22.9281 10.7476 22.5397 9.72648 22.2078C8.47396 21.8007 7.47848 21.5854 7.5652 20.8939C7.61032 20.5338 8.10628 20.1655 9.05304 19.789L9.05308 19.7889Z"
+                    fill="white" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container flex">
+      <a href="#" class="footer__logo" aria-hidden="true">
+        <picture class="footer__picture">
+          <source media="(max-width: 576px)" srcset="img/logo__xs.svg">
+          <source media="(max-width: 1300px)" srcset="img/logo-md.svg">
+          <img src="img/logo.svg" alt="логотип">
+        </picture>
+      </a>
+      <ul class="footer__list list-reset flex">
+        <li class="footer__item">
+          <a href="#" target="_blank" class="footer__link " aria-label="ВКонтакте">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.5 0C10.074 0 0 10.0736 0 22.5C0 34.9264 10.074 45 22.5 45C34.926 45 45 34.9264 45 22.5C45 10.0736 34.926 0 22.5 0ZM33.9132 24.9335C34.9619 25.9577 36.0714 26.9217 37.0128 28.0519C37.4299 28.5519 37.823 29.0688 38.1222 29.6503C38.5495 30.4794 38.1637 31.3886 37.4216 31.4379L32.812 31.4369C31.6215 31.5354 30.6741 31.0553 29.8754 30.2414C29.2378 29.5927 28.6462 28.8999 28.0321 28.2292C27.7812 27.9539 27.517 27.6947 27.2021 27.4907C26.5737 27.0819 26.0277 27.2072 25.6677 27.8636C25.3008 28.5316 25.217 29.2719 25.182 30.0153C25.1319 31.1022 24.8041 31.3863 23.7135 31.4374C21.3832 31.5465 19.1721 31.1929 17.117 30.0181C15.3041 28.9818 13.901 27.5193 12.6783 25.8634C10.2973 22.6353 8.47381 19.0924 6.8354 15.4478C6.46665 14.627 6.73642 14.1878 7.64194 14.1707C9.14639 14.1417 10.6508 14.1454 12.1553 14.1694C12.7676 14.179 13.1727 14.5294 13.4079 15.1071C14.2209 17.1074 15.2176 19.0105 16.4665 20.7755C16.7994 21.2455 17.1391 21.7142 17.623 22.0461C18.157 22.4125 18.5639 22.2915 18.8158 21.6953C18.9769 21.3164 19.0464 20.9113 19.0814 20.5053C19.2011 19.1145 19.2153 17.7242 19.0082 16.339C18.8793 15.4722 18.3918 14.9124 17.5277 14.7485C17.0876 14.6652 17.152 14.5022 17.3661 14.2508C17.7376 13.8163 18.0856 13.5474 18.7812 13.5474L23.9893 13.5465C24.8101 13.7076 24.9942 14.0759 25.1056 14.9027L25.1102 20.6903C25.1006 21.0103 25.2709 21.9586 25.8454 22.1681C26.3058 22.32 26.6096 21.9508 26.8849 21.6594C28.1339 20.334 29.0237 18.7697 29.8206 17.1506C30.1723 16.4366 30.4757 15.6978 30.7703 14.9575C30.9895 14.4101 31.3301 14.1408 31.9479 14.15L36.9631 14.156C37.1108 14.156 37.2609 14.1574 37.4073 14.1827C38.2525 14.3273 38.4841 14.6909 38.2226 15.5154C37.811 16.8109 37.0114 17.89 36.2297 18.9718C35.3919 20.1301 34.4983 21.2478 33.6687 22.4111C32.9064 23.4746 32.9667 24.01 33.9132 24.9335Z" />
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#" target="_blank" class="footer__link" aria-label="Одноклассники">
+            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19.279 14.9859C19.279 16.8409 20.7828 18.3449 22.6379 18.3449C24.4929 18.3449 25.9967 16.8409 25.9967 14.9859C25.9967 13.1309 24.4929 11.6271 22.6379 11.6271C20.7828 11.6271 19.279 13.1309 19.279 14.9859Z" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M22.5 45C34.9264 45 45 34.9264 45 22.5C45 10.0736 34.9264 0 22.5 0C10.0736 0 0 10.0736 0 22.5C0 34.9264 10.0736 45 22.5 45ZM14.5125 14.9858C14.5125 10.4984 18.1503 6.86047 22.6379 6.86047C27.1254 6.86047 30.7632 10.4984 30.7632 14.9858C30.7632 19.4734 27.1254 23.1115 22.6379 23.1115C18.1503 23.1115 14.5125 19.4734 14.5125 14.9858ZM30.8117 27.291C30.7086 27.3737 28.7593 28.9142 25.5064 29.5769L30.4165 34.4432C31.28 35.3053 31.2811 36.7042 30.419 37.5677C29.5569 38.431 28.1583 38.4324 27.2945 37.5701L22.5276 32.928L18.1979 37.5402C17.7644 37.9899 17.1862 38.216 16.6074 38.216C16.0553 38.216 15.5027 38.0106 15.074 37.5972C14.1956 36.7502 14.1701 35.3516 15.0171 34.4733L19.6777 29.6025C16.3336 28.9555 14.3039 27.3749 14.1993 27.291C13.2475 26.5277 13.0946 25.1372 13.8579 24.1852C14.6212 23.2334 16.0115 23.0805 16.9636 23.8437C16.9837 23.86 19.1067 25.4549 22.5275 25.4572C25.9483 25.4549 28.0273 23.86 28.0474 23.8437C28.9995 23.0805 30.3899 23.2334 31.1531 24.1852C31.9165 25.1372 31.7636 26.5277 30.8117 27.291Z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </footer>
-
 </body>
 
 </html>
